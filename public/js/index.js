@@ -10,7 +10,7 @@ socket.on('disconnect',function (){
 
 
 socket.on('newMessage',function(message){
-    console.log(`Got new messegae from ${message.from},   \r\n${message.text} \r\n${message.createAt}`);
+    console.log(`Got new messegae `,message);
 });
 
 
